@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.habib-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.main-container{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*header csss*/
+header{
+    width: 100%;
+}
+.header-container{
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-right: 1px solid #3b6019;
+    color: #3b6019;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+/*End Header css*/
+
+/*Main*/
+.left-sidebar{
+    width: 24%;
+}
+.single-widget{
+    border: 1px solid #ddd;
+    background: #f5ffe6;
+    margin-bottom: 20px;
+}
+.single-widget h2{
+    background: #2fad2d;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.single-widget ul li{
+    border-bottom: 1px dotted #ddd;
+}
+.single-widget ul li a{
+    display: block;
+    color:#155313;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.single-widget ul li a:hover{
+    color: #2fad2d;
+}
+.habib-content{
+    width: 50%;
+}
+.right-sidebar{
+    width: 24%;
+}
+.main-content-habib{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.main-content-habib h2{
+    font-weight: normal;
+    font-size: 18px;
+    color: #1a8c18;
+    margin-bottom: 20px;
+}
+.main-content-habib img{
+    width: 100%;
+    height: auto;
+}
+.main-content-habib p{
+    font-weight: normal;
+    text-align: justify;
+    line-height: 18px;
+    color: #414141;
+    font-size: 12px;
+    width: 586px;
+    padding: 10px 10px 0px 10px;
+}
+/*Main*/
+
+/*Footer*/
+.habib-footer{
+    padding: 20px;
+    background-image: url(../img/fotter_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom bottom;
+    background-size: cover;
+}
+.habib-footer ul{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.habib-footer ul li{
+    display: inline-block;
+}
+.habib-footer ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #417640;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+} 
+.habib-footer p{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    line-height: 2;
+}
+/*Footer*/
